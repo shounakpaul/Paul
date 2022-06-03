@@ -34,13 +34,19 @@
     </nav>
     <div class="container-sm mt-5">
       <form action="https://formsubmit.co/bcf74e10441e452cb3a8b91cc1c8502e" method="POST">
+        <!-- honeypot for spammers -->
+        <input type="text" name="_honey" style="display: none;">
+        <!-- captcha remover -->
+        <input type="hidden" name="_captcha" value="false">
+        <!-- success page -->
+        <input type="hidden" name="_next" value="success.html">
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Your Name</label>
           <input type="text" class="form-control" id="exampleFormControlInput1" name="Name" required>
         </div>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Email Address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" name="E-Mail ID" placeholder="example@example.com" required>
+          <input type="email" class="form-control" id="exampleFormControlInput1" name="E-Mail&nbsp;ID" placeholder="example@example.com" required>
         </div>
         <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">Message</label>
