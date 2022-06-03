@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body{
     background-color: #DBDFFD;
 }
+
+.navbar-brand h5{
+    font-family: 'Pacifico', cursive;
+    /* align-items: center; */
+    margin-top: 5px;
+    position:absolute;
+    display: inline;
+    /* margin-bottom: 7px; */
+
+    
+}
+
+.navbar-brand img{
+    border-radius: 50%;
+    height: 36px;
+    width: auto;
+    margin-right: 20px;
+}
+
