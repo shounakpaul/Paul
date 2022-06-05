@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-body{
-    background-color: #DBDFFD;
-}
+
+
+/* .fa {
+    font-size: 60px;
+  } */
 
 .navbar-brand h5{
     font-family: 'Pacifico', cursive;
@@ -32,3 +34,12 @@ body{
     box-shadow: 0 20px 20px -20px #333;
     margin: -50px auto 10px;
 } */
+
+.fa {
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
